@@ -3,8 +3,6 @@ var initialSize = 80;
 var countBoxes = 0, clicks = 0;
 var chosen, couple, first, second,single;
 var top = 20, fontSize = 40;
-var time;
-
 function addFloatBox() {
     const body = document.getElementsByTagName('boxes_game')[0];
     const box = document.createElement('div');
