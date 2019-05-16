@@ -64,8 +64,10 @@ function boxOpen() {
             chosen.removeEventListener('click',boxOpen);
         }
         else{                                                    //the user can see for 1 sec the letter before disappear            
-            this.style.color="black";
-            chosen.style.color="black";       
+            setTimeout(()=> {
+                this.style.color="black";
+                chosen.style.color="black";
+            }, 750)       
         }
         clicks=0;
     }
