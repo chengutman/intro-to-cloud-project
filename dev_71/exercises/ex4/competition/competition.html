@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="includes/style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Forms-club page</title>
+</head>
+
+<body>
+    <div class="container">
+            <audio controls autoplay><source src="Sugar.mp3" type="audio/mpeg"></audio>
+        <main>
+                <section class="register">
+                        <form action="http://html5-book.co.il/teach/forms/get_form2.php" method="get">
+            
+                            <h1>Register</h1>
+                            <div class="reg_section personal_info">
+                                <h3>Your Personal Information</h3>
+                                <input type="text" name="fullName" size="25" required title="you must to fill it" placeholder="Enter Your Name">
+                                <input type="password" name="pass" minlength="6" maxlength="10" required title="you must to fill it" size="25" placeholder="Choose a password">
+                                <input type="email" name="mail" size="25" placeholder="Enter Your Email Address">
+                                <input type="url" name="website" size="25" placeholder="Enter your website page">
+                                <input type="tel" name="phone" size="25"placeholder="Enter Your Phone Number">
+                                <textarea rows="1" cols="20" name="address" placeholder="Enter Your Address"></textarea>
+                                <label>Gender:</label><br>
+                                <input type="radio" name="gender" value="male"> Male<br>
+                                <input type="radio" name="gender" value="female"> Female<br>
+                                <input type="radio" name="gender" value="other"> Other<br><br>
+                                <label> Age : </label><select name="age">
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                </select> 
+                            <div class="row_down">
+                            <h3>A Little Bit About You</h3>
+                            <label>Coffee :</label> <input type="number" name="coffee" value="0" size="10" min="0" max="20" step="1"><br>
+                            <label>Temperature:</label> <input type="range" name="temper" value="5" min="0" max="100"> 100<br><br>
+                            <label>Habbies:</label><br>
+                            <input type="checkbox" name="interests[]" value="Tv & Movies">Tv & Movies
+                            <input type="checkbox" name="interests[]" value="Sports">Sports<br>
+                            <input type="checkbox" name="interests[]" value="Books">Books<br>
+                            <input type="checkbox" name="interests[]" value="Family Time">Family Time<br>
+                            </div>
+                            </div>
+                            <p class="terms">
+                                <label>
+                                    <input type="checkbox" name="remember_me" id="remember_me">I accept <a href="#"></a>Gutman </a>Terms & Condition
+                                </label>
+                            </p>
+                            <p class="submit"><input type="submit" value="Submit"></p>
+                        </form>
+                    </section>
+        </main>
+    </div>
+        <p class="neon">Join Our <br>Members<br>Club!</p>
+        <div class="dance"></div>
+    </div>
+</body>
+</html>

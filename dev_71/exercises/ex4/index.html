@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" href="includes/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <title>Forms-login page</title>
+    </head>
+    
+    <body>
+        <div id="form2">
+            <h1>EX4-Forms:</h1>
+            <div class="w3-container">
+                <input type="button" class="w3-button w3-green"
+                    onclick="document.getElementById('id01').style.display='block'" value="Login">
+                <a href="form1.html" class="w3-button w3-green">Form1</a>
+                <a href="competition/competition.html" class="w3-button w3-green">Competition</a>
+                <div id="id01" class="modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                        title="Close Modal">&times;</span>
+                    <form class="modal-content animate" action="get_params_login.php" method="get">
+                        <div class="svg_container">
+                            <img src="images/man.svg" alt="man" class="man">
+                        </div>
+                        <h2>Welcome!</h2>
+                        <div class="container">
+                            <label>Enter user name: </label>
+                            <input type="text" name="reg_user_name" placeholder="Enter Your Name" required>
+                            <label>Enter your favorite color:</label> 
+                            <select name="reg_color" required>
+                                <option>----</option>
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Yellow</option>
+                                <option>Green</option>
+                                <option>Black</option>
+                                <option>Grey</option>
+                                <option>Pink</option>
+                                <option>Purple</option>
+                                <option>Orange</option>
+                                <option>Brown</option>
+                            </select>
+
+                            <button type="submit">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+    </body>
+</html>
