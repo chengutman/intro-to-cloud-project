@@ -1,0 +1,259 @@
+*{ margin:0px;padding:0px;box-sizing: border-box; }
+body{ font-family: Arial, Helvetica, sans-serif; }
+main, nav, article, aside, section, header,
+footer { display:block;text-decoration: none;}
+header {
+ 	width:100%;
+ 	height:123px;
+ 	background-color: #CED1D9;
+	padding-top:2px;
+}
+
+ main{
+ 
+     margin: 0 auto;
+}
+.logo{
+    background: url("../images/logo1.png")no-repeat top;
+    height: 90px;
+    width: 90px;
+    margin-left: 30px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+nav{
+    margin-top: 3%;
+    position: absolute;
+    margin-right: 0px;
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 200px;
+}
+nav a{
+    margin-left: 22px;
+    color: #ffffff;
+}
+.icons{
+    margin-left: 75%;
+    margin-top: 3%;
+    display: inline-flex;
+    position: relative;
+}
+.icons i{
+    margin-left: 22px;
+    font-size: 20px;
+}
+.icons:hover input{
+    width: 200px;
+    padding: 0 36px 0 8px;
+}
+
+  
+.search-container input[type=text] {
+    font-size: 17px;
+    border: none;
+  }
+
+.search-container button {
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  #search{
+      background: none;
+  }
+ .search-container button:hover {
+    background: #ccc;
+  }
+
+.search_form{
+    display: inline-flex;
+}
+
+.active {
+    width: 500px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.start_btn{
+    top:123px;
+	position: fixed;
+    width: 437.5px;
+    
+    background: rgba(136,96,208,255);
+    right: 0px;
+    bottom: 0px;
+	
+}
+.start_btn a{
+    text-decoration: none;
+
+}
+.start_btn h1{
+   /* top: 547px; */
+    /* top: 50%; */
+    bottom: 50%;
+    left: 70px;
+    /* right: 50%; */
+    position: absolute;
+    font-family: Segoe UI;
+    font-size: 44px;
+    /* text-align: center; */
+    color: #ffffff;
+    /* margin: auto; */
+    line-height: 0px;
+    /* vertical-align: middle; */
+}
+.party_plan_explenation{
+
+    /*top: 431px; */
+    /* left: 425px; */
+    /* width: 637px; */
+    /* height: 241px; */
+    font-family: Segoe UI;
+    font-size: 44px;
+    text-align: center;
+    color: #c1c8e4;
+    position: absolute;
+    top: 200px; 
+    left: 300px;
+    bottom: 50%;
+}
+
+/*----------------------*/
+
+h1{
+font-size: 60px;
+margin: 30px 0px 0px 65px;
+}
+h2{
+margin-left: 275px;
+}
+
+.modal {
+display: none; 
+position: fixed; 
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%; 
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.4); 
+padding-top: 60px;
+}
+.modal-content {
+background-color: #fefefe;
+margin: 5px auto; 
+border: 1px solid #888;
+width: 16.5%; 
+}
+
+.animate {
+-webkit-animation: animatezoom 0.6s;
+animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+from {-webkit-transform: scale(0)} 
+to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+from {transform: scale(0)} 
+to {transform: scale(1)}
+}
+
+.close {
+position: absolute;
+right: 25px;
+top: 0; 
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+input[type=text]{
+width: 200px;
+height: 30px;
+padding: 12px 20px;
+display: block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+input[type=number]{
+    width: 200px;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.2142em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .47861429em 1em;
+    background: #FFF;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    transition: box-shadow .1s ease,border-color .1s ease;   
+}
+input[type=number]:focus{
+    color: rgba(0,0,0,.87);
+    border-color: rgb(133, 183, 217);
+    background-color: rgb(255, 255, 255);
+}
+input[type=datetime]{
+    width: 200px;
+    height: 30px;
+    padding: 12px 20px;
+    display: inline-block;    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button[type=submit] {
+background-color: rgb(136, 96, 208);;
+color: white;
+padding: 14px 20px;
+margin-top: 8px;
+border: none;
+cursor: pointer;
+width: 200px;
+}
+
+button:hover {
+opacity: 0.8;
+}
+.container {
+padding: 16px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+   display: block;
+   float: none;
+}
+.cancelbtn {
+   width: 100%;
+}
+}
+.w3-btn, .w3-button {
+    position: relative;
+    border: none;
+    display: inline-block;  
+    margin-top: 550px;
+    margin-left: 500px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
