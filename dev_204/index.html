@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./includes/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link
+        href="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.css"
+        rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script
+        src="https://cdn.rawgit.com/mdehoog/Semantic-UI/6e6d051d47b598ebab05857545f242caf2b4b48c/dist/semantic.min.js"></script>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+                <div class="logo" onclick="window.location.href='index.html'"></div>
+                <nav>
+                        <a href="#">My Profile</a>
+                        <a href="#">My Partys</a>
+                        <a href="#">Plan A New Party</a>
+                </nav>
+                <div class="icons">
+                        <i class="fa fa-user"></i>
+                        <i class="fa fa-bell"></i>
+                        <div class="search-container">
+                                <form class="search_form" action="">
+                                        <i class="fa fa-search"></i>
+                                        <input type="text" placeholder="Search.." name="search">
+                                </form>
+                        </div>
+                </div>
+    </header>
+    <main>
+        <aside class="start_btn"><a href="./category.html">
+                <h1>Plan Your Party!</h1>
+            </a></aside>
+        <p class="party_plan_explenation">Lets start planning your party!<br />press start to select a date and<br>
+            number of participants,<br>after that press 'Plan Your Party'<br> and follow the steps<br />in each step
+            select the option <br />that is best suited for you </p>
+        <div class="w3-container">
+            <input type="button" class="w3-button w3-purple"
+                onclick="document.getElementById('id01').style.display='block'" value="Start!">
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <form class="modal-content animate" action="final_page.php" method="get" target="formDestination">
+                    <div class="container">
+                        <label>Choose a Date for your party:</label>
+                        <div class="ui calendar" id="example2">
+                            <div class="ui input left icon">
+                                <i class="calendar icon"></i>
+                                <input type="text" name="pdate" placeholder="Date" required>
+                            </div>
+                        </div><br>
+                        <label>Time :</label>
+                        <div class="ui calendar" id="example3">
+                            <div class="ui input left icon">
+                                <i class="time icon"></i>
+                                <input type="datetime" name="ptime" placeholder="Time" required>
+                            </div>
+                        </div><br>
+                        <label>Number Of Guests:</label><br>
+                        <input type="number" name="nguests" required></label><br><br>
+                        <button class="sumbit_btn" type="submit" onclick="document.getElementById('id01').style.display='none'"
+                            title="Close Modal">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="includes/java.js"></script>
+</body>
+
+</html>
