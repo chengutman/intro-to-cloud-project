@@ -1,0 +1,649 @@
+*{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+
+}
+
+header {
+  width:100%;
+  height:123px;
+  background-color: #CED1D9;
+ padding-top:2px;
+}
+
+.logo{
+  background: url("/images/logo1.png")no-repeat top;
+  height: 90px;
+  width: 90px;
+  margin-left: 30px;
+  margin-top: 15px;
+  position: absolute;
+}
+iframe{
+  display: none;
+}
+/*-------layout2--------*/
+@media (min-width: 851px){
+ .w3-bar-item, .w3-button, .w3-large{
+    display: none;
+  }
+ nav{
+    margin-top: 3%;
+    position: absolute;
+    margin-right: 0px;
+    font-family: Amiko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 10%;
+  }
+  
+  nav a{
+    margin-left: 22px;
+    color: #ffffff;
+  }
+  .icons{
+    margin-left: 75%;
+    margin-top: 3%;
+    display: inline-flex;
+    position: relative;
+  }
+  .icons i{
+    margin-left: 22px;
+    font-size: 20px;
+  }
+  .icons:hover input{
+    width: 100px;
+    padding: 0 36px 0 8px;
+  }
+  
+  .search-container input[type=text] {
+    font-size: 17px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .search-container button {
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  #search{
+      background: none;
+  }
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+  .search_form{
+    display: inline-flex;
+  }
+  
+  .active {
+    width: 500px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #layout2{
+  display: flex;
+  min-height: calc(100vh - 40vh)
+  }
+  
+  #layout2 > #category{
+    max-width: 30vh;
+    background: #5680E9;
+    min-height: 100vh;
+    order: -1;
+    border-radius: 0px 20px;
+  }
+  #category h1{
+    top: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    font-family: Segoe UI;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    
+  }
+  #layout2 > .container{
+  flex:1;
+  }
+  
+  .caption {
+  text-align: center;
+    width: 245px;
+    font-size: 14px;
+  }
+  
+  .collapsible1,.collapsible2,.collapsible3,.collapsible4 {  
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-left: 47%;
+    font-size: 15px;
+    background: none;
+  }
+  
+  .pass{
+    left: 72%;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    background: none;
+  }
+  
+  .container1,.container2,.container3,.container4{
+    display:none;
+  
+  }
+  #layout2 span{
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  #layout2 .info img{
+   width: 90px;
+   border-radius: 20px;
+  }
+  #layout2 img{
+    width: 90px;
+    border-radius: 20px;
+   }
+  
+  #layout2 h3{
+    font-size: 14px;
+    font-family: Segoe UI;
+    text-align: center;
+    color: #c1c8e4;  text-align: center;
+  }
+  .food_btn{
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background: #C2AEE7;
+    color: white;
+  }
+  .items1,.items2,.items3,.items4{
+    margin-left: 100px;
+  }
+  .next_Btn_1,.next_Btn_2,.next_Btn_3,.next_Btn_4{
+    float: right;
+    opacity: 0.2;
+    font-size: 60px;
+    margin-top: 41.5px;
+    background: none;
+    border: none;
+  }
+  
+  .prev_Btn_1,.prev_Btn_2,.prev_Btn_3,.prev_Btn_4{
+    float: left;
+    opacity: 0.2;
+    font-size: 60px;
+    margin-top: 41.5px;
+    background: none;
+    border: none;
+  }
+  .one,.two,.three,.four{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+   #layout2 #label{
+    left: 5%;
+    color: white;
+    /* margin-left: 5%; */
+    font-size: 25px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+  }
+  .done{
+    margin-left: 45%;
+    margin-top:5%;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(136, 96, 208);
+    color:#ffffff;
+  }
+  /*------ Modal Content ----*/
+  #layout2 .modal, .myModal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  #layout2 .modal-content ,.modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    height: 85%;
+    border-color: #fefefe;
+    box-shadow: 0px 0px 0px 30px rgba(240, 240, 240, 0.514); 
+    border-radius: 10px;
+    border-width: 20px;
+    margin-top: -58px;
+  }
+  #layout2 .modal-content img{
+    position: relative;
+    width: 90px;
+    margin-left:35%;
+    margin-top:3%;
+    border-radius: 20px;
+   }
+   #layout2 .modal-content h3{
+    position: relative;
+    font-size: 36px;
+    color: #c1c8e4;
+    margin-top:5%;
+    border-radius: 20px;
+   }
+   #layout2 .modal-content .stars{
+    position: relative;
+    margin-top: 10%;
+    margin-left:5%;
+   }
+   #layout2 .modal-content a{
+    position: relative;
+    margin-top:20%;
+    font-size:20px;
+    color: #c1c8e4; 
+    margin-left:7.5%;
+   }
+  
+   #layout2 .modal-content button,.modal-content2 button{
+    position: relative;
+    font-size:20px;
+    color: #ffffff; 
+    background: rgb(136, 96, 208);
+    width: 40%;
+    margin-top: 5%;
+    margin-left:30%;
+    border-radius: 3px;
+   }
+   .modal-content2 h1{
+     font-size: 20px;
+     color: #c1c8e4;
+     margin-top:30px;
+   }
+   .modal-content2 label{
+    font-size: 10px;
+    color: #c1c8e4;
+    margin-right: 50px;
+  }
+  input[type=number]{
+    width:100px;
+    border-radius: 2px;
+    margin-right: 40px;
+  }
+  select {
+    width:100px;
+    border-radius: 2px;
+  }
+   
+  /* The Close Button */
+  #layout2 .close, .close2 {
+    color: #7a7878;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  #layout2 .checked {
+    color: orange;
+  }
+}
+@media (max-width: 850px){
+  .w3-teal,.w3-hover-teal:hover{
+    color:#fff!important;
+    background-color:#CED1D9 !important;
+  }
+.w3-button {
+  color: #000000 !important;
+  margin-left: 120px;
+  border: none;
+  display: inline-block;
+  padding: 0px !important; 
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-bar-block .w3-bar-item {
+  width: 100%;
+  margin-left: 0px !important;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+.w3-sidebar a{
+  margin-left: 20px !important;
+  margin-top: 10px !important;
+  font-size: 25px !important;
+}
+  nav{
+    position: relative;
+    font-size: 40px;
+    margin-top: 3%;
+  }
+  nav a{
+    display: none;
+  }
+  
+  .w3-animate-left{
+    animation:animateleft 0.4s;
+  }
+  .w3-sidebar {
+    width: 220px !important;
+    height: 180px !important;
+}
+  
+  .icons{
+    margin-left: 60%;
+    margin-top: 5%;
+    display: inline-flex;
+    position: fixed;
+  }
+  .icons i{
+    margin-left: 22px;
+    font-size: 20px;
+  }
+  .icons:hover input{
+    width: 100px;
+    padding: 0 36px 0 8px;
+  }
+  
+  .search-container input[type=text] {
+    font-size: 17px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .search-container button {
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  #search{
+      background: none;
+  }
+  .search-container button:hover {
+    background: #ccc;
+  }
+  
+  .search_form{
+    display: inline-flex;
+  }
+  #category h1{
+    display: none;
+    
+  }
+  .active {
+    width: 500px;
+    height: 100px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #layout2{
+  display: flex;
+  min-height: calc(100vh - 40vh)
+  }
+  
+  #layout2 > .container{
+  flex:1;
+  }
+  
+  .caption {
+  text-align: center;
+    width: 245px;
+    font-size: 14px;
+  }
+  
+  .collapsible1,.collapsible2,.collapsible3,.collapsible4 {  
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-left: 50%;
+    font-size: 15px;
+    background: none;
+  }
+  
+  .pass{
+  
+    left: 75%;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    font-size: 15px;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    background: none;
+  }
+  
+  .container1,.container2,.container3,.container4{
+    display:none;
+  
+  }
+  #layout2 span{
+    display: inline-block;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  #layout2 .info img{
+   width: 90px;
+   border-radius: 20px;
+  }
+  #layout2 img{
+    width: 90px;
+    border-radius: 20px;
+   }
+  
+   #layout2 h3{
+    font-size: 14px;
+    font-family: Segoe UI;
+    text-align: center;
+    color: #c1c8e4;  text-align: center;
+  }
+  .food_btn{
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 20px;
+    background: #C2AEE7;
+    color: white;
+  }
+  .items1,.items2,.items3,.items4{
+    margin-left: 100px;
+  }
+  .next_Btn_1,.next_Btn_2,.next_Btn_3,.next_Btn_4{
+    float: right;
+    opacity: 0.2;
+    font-size: 60px;
+    margin-top: 41.5px;
+    background: none;
+    border: none;
+  }
+  
+  .prev_Btn_1,.prev_Btn_2,.prev_Btn_3,.prev_Btn_4{
+    float: left;
+    opacity: 0.2;
+    font-size: 60px;
+    margin-top: 41.5px;
+    background: none;
+    border: none;
+  }
+  .one,.two,.three,.four{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  #layout2 #label{
+    left: 5%;
+    color: white;
+    /* margin-left: 5%; */
+    font-size: 25px;
+    width: 100px;
+    position: absolute;
+    top: 20%;
+  }
+  
+  .done{
+    margin-left: 45%;
+    margin-top:5%;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(136, 96, 208);
+    color:#ffffff;
+  }
+  /*------ Modal Content ----*/
+  #layout2 .modal , .myModal2{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  #layout2 .modal-content, .modal-content2 {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 70%;
+    border-color: #fefefe;
+    box-shadow: 0px 0px 0px 30px rgba(240, 240, 240, 0.514); 
+    border-radius: 10px;
+    border-width: 20px;
+    margin-top: -58px;
+  }
+  #layout2 .modal-content img{
+    width: 90px;
+    margin-left:35%;
+    margin-top:3%;
+    border-radius: 20px;
+    position: relative;
+   }
+   #layout2 .modal-content h3{
+     position: relative;
+    font-size: 36px;
+    color: #c1c8e4;
+    margin-top:5%;
+    border-radius: 20px;
+   }
+   #layout2 .modal-content .stars{
+    position: relative;
+    margin-top: 10%;
+    margin-left:5%;
+   }
+   #layout2 .modal-content a{
+     position: relative;
+    margin-top:20%;
+    font-size:20px;
+    color: #c1c8e4; 
+    margin-left:15%;
+   }
+   #layout2 .modal-content button,.modal-content2 button{
+     position: relative;
+    font-size:20px;
+    color: #ffffff; 
+    background: rgb(136, 96, 208);
+    width: 50%;
+    margin-top: 5%;
+    margin-left:25%;
+    border-radius: 3px;
+   }
+   .modal-content2 h1{
+    font-size: 20px;
+    color: #c1c8e4;
+    margin-top:30px;
+  }
+  .modal-content2 label{
+   font-size: 10px;
+   color: #c1c8e4;
+   margin-right: 50px;
+ }
+ input[type=number]{ 
+   width:100px;
+   border-radius: 2px;
+   margin-right: 40px;
+ }
+ select {
+   width:100px;
+   border-radius: 2px;
+ }
+  
+   
+  /* The Close Button */
+  #layout2 .close, .close2{
+    color: #7a7878;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  #layout2 .checked {
+    color: orange;
+  }
+}
