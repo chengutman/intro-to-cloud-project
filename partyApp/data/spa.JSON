@@ -1,0 +1,59 @@
+[
+  { 
+    "name":"Maskit",
+    "thumbnail":"https://www.maskit.co.il/sysvault/sysimg/sitelogo.png",
+    "website":"https://www.maskit.co.il/",
+    "address": "20 Hagefen st,Liman",
+    "Tel":"04-9521000"
+  },
+  { 
+      "name":"A23 Spa",
+      "thumbnail":"https://static.wixstatic.com/media/7d908e_3409552e09474217abffd4e4467c8cfc~mv2.png/v1/fill/w_322,h_250,al_c,lg_1,q_80/Group%20218.webp",
+      "website":"https://www.a23spa.com/",
+      "address": "23 Arlozerov,Tel Aviv-Jaffa",
+      "Tel":"072-3713065"
+    },
+    { 
+      "name":"Tomoko",
+      "thumbnail":"https://tomokojapanese.co.il/wp-content/uploads/elementor/thumbs/cropped-box-nx2zoqfgmogmffz09y7ic7kdt34g62wmiqlpd73aw81-nyds35gts24jmlnlmggow3mqnz8l6yktoojq1jt5b4.png",
+      "website":"https://tomokojapanese.co.il/",
+      "address": "Wingate 142,Herzliya",
+      "Tel":"072-3719914"
+    },
+    { 
+      "name":"Relax Spa",
+      "thumbnail":"https://tlvspa.twinsm.org/wp-content/uploads/sites/68/2018/08/logo-RELAX-SPA.png",
+      "website":"https://tlvspa.twinsm.org/?gclid=CjwKCAjwgqbpBRAREiwAF046JU4iztfPnlAyLnRvCYq_t2x8VFxGOXakboJOwXBQeM_fh8ifHbyeDBoCbrwQAvD_BwE",
+      "address": "154 Dizingoff,Tel Aviv-Jaffa",
+      "Tel":"052-4446799"
+    },
+    { 
+      "name":"Brown Hotel spa",
+      "thumbnail":"https://brownhotels.com/sites/default/files/logos/collection.png",
+      "website":"https://brownhotels.com/",
+      "address": "1 Ben Yehuda st,Tel Aviv-Jaffa",
+      "Tel":"03-9747045"
+    },
+    { 
+      "name":"Horizon Spa",
+      "thumbnail":"https://ad.horizonspa.co.il/wp-content/uploads/2018/07/logo.png",
+      "website":"https://ad.horizonspa.co.il/",
+      "address": "Sheraton Hotel,Tel Aviv-Jaffa",
+      "Tel":"077-9976981"
+    },
+    { 
+      "name":"Tuvik",
+      "thumbnail":"https://tuvik.co.il/wp-content/uploads/2016/12/logo500.png",
+      "website":"https://tuvik.co.il/",
+      "address": "Kadima",
+      "Tel":"09-8991051"
+    },
+    { 
+      "name":"Sea Spa",
+      "thumbnail":"http://www.seaspa.co.il/wp-content/uploads/sites/584/2017/11/logo-1.png",
+      "website":"http://www.seaspa.co.il/",
+      "address": "Ramada Hotel,Hadera",
+      "Tel":"04-6223030"
+    }  
+  ]
+  

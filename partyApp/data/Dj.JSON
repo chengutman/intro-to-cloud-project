@@ -1,0 +1,39 @@
+[
+    { 
+      "name":"Raz Simon",
+      "thumbnail":"http://razsimon.mitchatnim.co.il/img/0552/625.png",
+      "website":"http://razsimon.mitchatnim.co.il/",
+      "Tel":"053-9349085"
+    },
+    { 
+      "name":"Yaniv Podlobeny",
+      "thumbnail":"http://djfixmix.mitchatnim.co.il/img/0529/774.png",
+      "website":"http://djfixmix.mitchatnim.co.il/",
+      "Tel":" 053-6111686"
+    },
+    { 
+      "name":"Afik Gold",
+      "thumbnail":"http://djafikgold.mitchatnim.co.il/img/0463/662.png",
+      "website":"http://djafikgold.mitchatnim.co.il/",
+      "Tel":"053-9370019"
+    },
+    { 
+      "name":"Itay Galo",
+      "thumbnail":"http://www.atisuto.com/data/images/2808_1a92b0b486d5c0945265e7f752933ff3.png",
+      "website":"http://www.atisuto.com/?categoryId=104638",
+      "Tel":" 077-6706818"
+    },
+    { 
+      "name":"Roy Leibovitz",
+      "thumbnail":"http://www.atisuto.com/data/images/2808_9c5bc09864da3a56d61fbd2205f2f3d4.png",
+      "website":"http://www.atisuto.com/?categoryId=104637",
+      "Tel":"077-6706616"
+    },
+    { 
+      "name":"Moti Vaknin",
+      "thumbnail":"http://www.motivaknin.mitchatnim.co.il/img/0363/391.png",
+      "website":"http://www.motivaknin.mitchatnim.co.il/",
+      "Tel":"053-9365992"
+    }
+  ]
+  

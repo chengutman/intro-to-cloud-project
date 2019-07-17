@@ -1,0 +1,51 @@
+[
+    { 
+      "thumbnail":"https://pic.vilat.co.il/images/belavan/214%20(Big).jpg",
+      "website":"https://www.vilat.co.il/%D7%A8%D7%92%D7%A2_%D7%91%D7%A0%D7%97%D7%AA.html",
+      "address": "Moshav Revaha",
+      "Tel":"053-9385559"
+    },
+    {
+      "thumbnail":"https://pic.rrr.co.il/images/vilaaaa55/13%20(Big).jpg",
+      "website":"https://www.rrr.co.il/lofts/showCabin.asp?site=341",
+      "address": "Petah Tikva",
+      "Tel":"053-9428729"
+    },
+    {
+      "thumbnail":"https://pic.rrr.co.il/images/tlv/26%20(Big).jpg",
+      "website":"https://www.rrr.co.il/lofts/showCabin.asp?site=289",
+      "address": "Tel Aviv-Jaffa",
+      "Tel":"053-9385605"
+    },
+    {
+      "thumbnail":"https://www.vila4u.com/gallery_v4u/v4u_1549349022302615_1200x710.jpeg",
+      "website":"https://www.vila4u.com/%D7%95%D7%99%D7%9C%D7%95%D7%AA_%D7%91%D7%9E%D7%A8%D7%9B%D7%96/%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91_%D7%95%D7%92%D7%95%D7%A9_%D7%93%D7%9F/%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91/%D7%95%D7%99%D7%9C%D7%94_H_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91/",
+      "address": "Tel Aviv",
+      "Tel":"072-3939877"
+    },
+    {
+      "thumbnail":"https://www.vila4u.com/gallery_v4u/v4u_1488198113649182_1200x710.jpeg",
+      "website":"https://www.vila4u.com/%D7%95%D7%99%D7%9C%D7%95%D7%AA_%D7%91%D7%9E%D7%A8%D7%9B%D7%96/%D7%97%D7%95%D7%A3_%D7%94%D7%9B%D7%A8%D7%9E%D7%9C/%D7%A7%D7%99%D7%A1%D7%A8%D7%99%D7%94/%D7%95%D7%99%D7%9C%D7%94_%D7%A9%D7%99%D7%A8%D7%99/",
+      "address": "Caesarea",
+      "Tel":"072-3929874"
+    },
+    {
+      "thumbnail":"https://www.villavip.co.il/site/images/gallery/vila_577_174028_arbFmdW.jpg",
+      "website":"https://www.villas.co.il/villa/villa-villa-sea-singing/552",
+      "address": "Natanya",
+      "Tel":"052-9129855"
+    },
+    {
+      "thumbnail":"https://www.hayokra.co.il/site/images/gallery/vila_451_31506_C6dxaW6.jpg",
+      "website":"https://www.hayokra.co.il/%D7%95%D7%99%D7%9C%D7%94/de-caesarea/451/?gclid=CjwKCAjwgqbpBRAREiwAF046JbYz1enapV8w_oNRUUCBRyP65LFvAOcmaztkJA21MlLvkKSh5iu9vBoCoDUQAvD_BwE",
+      "address": "Caesarea",
+      "Tel":"052-9172612"
+    },
+    {
+      "thumbnail":"https://www.hayokra.co.il/site/images/gallery/vila_530_39731_AYEeMyn.jpg",
+      "website":"https://www.balivilla.co.il/villa-521/villa-villa-nio",
+      "address": "Hadera",
+      "Tel":"052-9708176"
+    }
+  ]
+  

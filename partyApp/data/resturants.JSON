@@ -1,0 +1,134 @@
+[
+    { 
+      "name":"Machne Yuda",
+      "thumbnail":"https://images.rest.co.il/Customers/80072223/cea78705b69341cd99d927f5ca8d29f4.jpg",
+      "website":"https://www.machneyuda.co.il/",
+      "address": "10 Beit Yaakov,Jerusalem",
+      "Tel":"02-5333442",
+      "rating" : "5"
+    },
+    { 
+      "name":"Taizu",
+      "thumbnail":"http://www.taizu.co.il/wp-content/themes/schwan/img/logo1.png",
+      "website":"http://www.taizu.co.il/",
+      "address": "Menachem begin 23 tel aviv",
+      "Tel":"03-5225005",
+      "rating" : "5"
+    },
+    { 
+      "name":"Raffaello",
+      "thumbnail":"http://www.raffaellocc.co.il/warehouse/dynamic/47966.png",
+      "website":"http://en.raffaellocc.co.il/",
+      "address": "8 Fliman St., Kastra Center, Haifa",
+      "Tel":"04-620-8757",
+      "rating" : "5"
+    },
+    { 
+        "name":"Hudson",
+        "thumbnail":"https://d3334fz4sk5hxp.cloudfront.net/wp-content/uploads/2016/09/logo-1.png",
+        "website":"https://hudson-tlv.com/",
+        "address": "27 Habarzel st. Ramat Hahayal, Tel Aviv",
+        "Tel":"03-6444733",
+        "rating" : "5"
+      },
+      { 
+        "name":"The Blue Rooster",
+        "thumbnail":"https://thebluerooster.co.il/wp-content/uploads/2018/09/logo.svg",
+        "website":"https://thebluerooster.co.il/",
+        "address": "Nissim Aloni St. 10 Tel Aviv",
+        "Tel":"03-5443349",
+        "rating" : "5"
+      },
+      { 
+        "name":"Quattro",
+        "thumbnail":"https://quattro.rest/wp-content/uploads/2018/07/logof-01.png",
+        "website":"https://quattro.rest/",
+        "address": "21 Ha’arba’a St, Tel Aviv-Jaffa",
+        "Tel":"03-9191555",
+        "rating" : "5"
+      },
+      { 
+        "name":"Mear-Bar",
+        "thumbnail":"https://meatbar.co.il/wp-content/uploads/2018/12/logo.png",
+        "website":"https://meatbar.co.il/",
+        "address": "52 Chen Boulevard, Tel Aviv",
+        "Tel":"03-6956276",
+        "rating" : "5"
+        
+      },
+      { 
+        "name":"Hatraklin",
+        "thumbnail":"http://www.hatraklin.co.il/assets/img/hatraklin_logo_large.png",
+        "website":"http://www.hatraklin.com/",
+        "address": "Heihal HaTalmud St 4, Tel-Aviv",
+        "Tel":"03-5660013",
+        "rating" : "5"
+      },
+      { 
+        "name":"Rooftop Mamilla Hotal",
+        "thumbnail":"https://www.mamillahotel.co.il/assets/images/clients/the-set/logos/mamilla-hewbrew-logo.svg",
+        "website":"https://www.mamillahotel.co.il/rooftop",
+        "address": "Shlomo Ha-Melekh 11 st. , Jerusalem",
+        "Tel":"02-25482200",
+        "rating" : "5"
+      },
+      { 
+        "name":"Mashya",
+        "thumbnail":"http://www.mashya.co.il/wp-content/uploads/2018/11/logo_web_220.png",
+        "website":"http://www.mashya.co.il/he/",
+        "address": "5 Mendeli st. Tel-Aviv",
+        "Tel":"03-7500999",
+        "rating" : "5"
+        
+      },
+      { 
+        "name":"Topolopompo",
+        "thumbnail":"http://www.topolopompo.co.il/wp-content/uploads/2015/11/logo-splash1.png",
+        "website":"http://www.topolopompo.co.il/",
+        "address": "14 Hasolelim,Tel aviv-Jaffa",
+        "Tel":"03-6910691",
+        "rating" : "4"
+      },
+      { 
+        "name":"Kinor Bakikar",
+        "thumbnail":"http://kinorbakikar.rest.co.il/img/0267/188.png",
+        "website":"https://kinor-bakikar.com/",
+        "address": "Maavar Beit HaKnesset 8, Kikar Hamusica, Jerusalem",
+        "Tel":"02-994-4902",
+        "rating" : "4"
+      },
+      { 
+        "name":"Ha’namal 24",
+        "thumbnail":"http://hanamal24.rest.co.il/img/0485/764.png",
+        "website":"http://hanamal24.rest.co.il/en",
+        "address": "Ha’namal street 24, Haifa Port",
+        "Tel":"053-9442262",
+        "rating" : "4"
+      },
+      { 
+        "name":"Cafe Italia",
+        "thumbnail":"http://www.cafe-italia.co.il/wp-content/uploads/2015/09/logo.png",
+        "website":"https://cafe-italia.co.il/",
+        "address": "Yona Kremnitski St 6, Tel Aviv",
+        "Tel":"03-5612888",
+        "rating" : "4"
+      },
+      { 
+        "name":"Chakra",
+        "thumbnail":"http://chakra-rest.com/images/clogo.png",
+        "website":"http://chakra-rest.com/",
+        "address": "King George 41 St.,Jerusalem",
+        "Tel":"02-6252733",
+        "rating" : "4"
+      },
+      { 
+        "name":"Emesh",
+        "thumbnail":"https://www.emeshtlv.co.il/wp-content/themes/emesh/assets/img/Asset%208.png",
+        "website":"https://www.emeshtlv.co.il/",
+        "address": "Lilenblum 30, Tel aviv",
+        "Tel":"054-6804699",
+        "rating" : "4"
+      }
+    
+  ]
+  

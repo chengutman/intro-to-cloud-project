@@ -1,0 +1,51 @@
+[
+    { 
+      "name":"Paneco",
+      "thumbnail":"https://www.paneco.co.il/Themes/Paneco/Content/images/logo1_2.png",
+      "website":"https://www.paneco.co.il/",
+      "Tel":"1-700-70-22-32 "
+    },
+    { 
+      "name":"BeerBar",
+      "thumbnail":"http://www.beerbar.co.il/wp-content/uploads/2016/07/logo.png",
+      "website":"http://www.beerbar.co.il/",
+      "Tel":"052-3863036"
+    },
+    { 
+      "name":"Fruit&Cheers",
+      "thumbnail":"https://www.fruitandcheers.com/img/logo.png",
+      "website":"https://www.fruitandcheers.com/",
+      "Tel":"03-915-3136"
+    },
+    { 
+      "name":"Yan's Drinks",
+      "thumbnail":"https://cashcow-cdn.azureedge.net/media-gallery/h6WtWdvSgX4%3d/11295599_867023746668444_8097685225942618284_n.jpg",
+      "website":"http://www.ewines.co.il/", 
+      "Tel": "1-700-700-292"
+    },
+    { 
+      "name":"Sir of Drinks",
+      "thumbnail":"https://www.mashkaot.co.il/assets/images/logo-2.png",
+      "website":"https://www.mashkaot.co.il/",
+      "Tel":"054-9271600"
+    },
+    { 
+      "name":"Jeremy's Bar",
+      "thumbnail":"http://www.jeremysbar.co.il/sysvault/sysimg/sitelogo.png",
+      "website":"http://www.jeremysbar.co.il/",
+     "Tel":"052-3919481"
+     },
+    { 
+      "name":"Dream Bar",
+      "thumbnail":"https://dreamteambar.co.il/480895_219.png",
+      "website":"https://dreamteambar.co.il/",
+      "Tel":"077-9968730"
+    },
+    { 
+      "name":"Rose Bar",
+      "thumbnail":"https://sfilev2.f-static.com/image/users/594580/ftp/my_files/Rose_Bar_New_Logo-2.jpg?sopC=1484494213223",
+      "website":"https://www.rosebar.co.il",
+      "Tel":"072-25-75-021"
+    }  
+  ]
+  
